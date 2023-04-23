@@ -1,7 +1,7 @@
 # Jogo-da-Forca-Desafio-2-
 Jogo da forca em C para o desafio 2 do monitor de pc
 
-This is a game written in C where the player has to guess a word by entering letters until they either win by correctly 
+ENG: ''This is a game written in C where the player has to guess a word by entering letters until they either win by correctly 
 guessing the word or lose by running out of chances. The game randomly selects a word from an array of words and displays a hint for the player.
 
 The program defines a structure called MatchData to hold the game data, including the chosen word, the hint, the remaining 
@@ -15,9 +15,12 @@ When the game is over, the program displays a message indicating whether the pla
 The program ends if the player chooses to exit.
 
 The program uses several helper functions, including limparTela to clear the console screen, 
-strtok to split the word and hint string, and rand and srand to generate random numbers for selecting a word from the array.
+strtok to split the word and hint string, and rand and srand to generate random numbers for selecting a word from the array.''
 
-Este é um jogo escrito em C onde o jogador deve adivinhar uma palavra inserindo letras até que ele ganhe ao acertar a palavra correta ou perca ao ficar sem chances. 
+
+
+
+PT BR: ''Este é um jogo escrito em C onde o jogador deve adivinhar uma palavra inserindo letras até que ele ganhe ao acertar a palavra correta ou perca ao ficar sem chances. 
 O jogo seleciona aleatoriamente uma palavra de uma matriz de palavras e exibe uma dica para o jogador.
 
 O programa define uma estrutura chamada MatchData para armazenar os dados do jogo, incluindo a palavra escolhida, a dica, as letras restantes a serem adivinhadas e as 
@@ -31,4 +34,4 @@ Quando o jogo termina, o programa exibe uma mensagem indicando se o jogador ganh
 O programa termina se o jogador escolher sair.
 
 O programa usa várias funções auxiliares, incluindo limparTela para limpar a tela do console, strtok para dividir a string de 
-palavra e dica e rand e srand para gerar números aleatórios para selecionar uma palavra da matriz
+palavra e dica e rand e srand para gerar números aleatórios para selecionar uma palavra da matriz''
